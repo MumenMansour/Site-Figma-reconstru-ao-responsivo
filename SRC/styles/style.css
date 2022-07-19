@@ -1,0 +1,245 @@
+
+:root{
+    --main-color: grey;
+    --main-color-h2: rgb(54, 144, 185);
+    --main-color-h3: black;
+    --main-font: 'Inter' , sans-serif; 
+    --main-borda: rgb(204, 197, 197);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    margin: 20px;
+    font: var(--main-font);
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+
+}
+
+
+
+.titulo3{
+    margin: 30px;
+    font-size: 2.5rem;
+    font-family: var(--main-font);
+    color: var(--main-color-h3);
+}
+
+h2{
+    color:  var(--main-color-h2);
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.button{
+    font-size: 25px;
+    margin: 10px; 
+    font-family: 'inter'
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 80px
+
+}
+
+.texto2{
+    font-size: 1 rem;
+    margin: 30px;
+    text-align: center;
+    width: 600px;
+    
+}
+
+
+.card { 
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+
+}
+.card1{
+    width: 200px;
+}
+
+.card h1{
+    font-size: 4rem;
+    font-family: var(--main-font);
+    color: var(--main-color-h2);
+    margin: 10px;
+}
+
+
+.card1 h3{
+    font-size: 1rem;
+    font-family: var(--main-font);
+    color: var(--main-color-h3);
+    margin: 10px;
+}
+
+.card1 p {
+    font-size: 1rem;
+    font-family: var(--main-font);
+    color: var(--main-color);
+    margin: 10px;
+}
+
+.banner{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.botao{
+   
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgb(233, 225, 225);
+}
+
+.botao a{
+    text-decoration: none;
+    color: var(--main-color-h2);
+}
+
+.textoTalentos{
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+    color: var(--main-color);
+    margin: 10px;
+    text-align: center;
+   
+}
+.textoTalentos h1{
+    font-size: 2.5rem;
+    font-family: var(--main-font);
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.textoTalentos p{
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+    color: var(--main-color);
+    margin: 10px;
+    text-align: center;
+}
+
+.bannerCentral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerCentral img{
+text-align: center;
+   max-width: 900px;
+   padding: 50px;
+}
+
+.ofertas{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.design{
+    margin: 30px;
+    font-size: 2rem;
+    color: black;
+    font-family: var(--main-font);
+    text-align: left;
+
+}
+
+
+.designSobre{
+    margin: 15px;
+    border: 2px solid var(--main-borda);
+    border-radius: 10px;
+    font-size: 1rem;
+    color: black;
+    font-family: var(--main-font);
+    width: 400px;
+
+}
+
+.designSobre h2{
+    padding: 25px;
+    font-size: 1rem;
+    color: black;
+
+}
+
+.sobre2{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+
+.prefooter{
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+}
+
+.bannerfooter{
+    background-color: rgba(215, 238, 240, 0.39);
+}
+.titulofooter{
+    padding: 25px;
+    color: var(--main-color-h2);
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulofooter h1{
+    color: var(--main-color-h2)
+}
+
+.textofooter{
+    text-align: center;
+    color:black;
+    font-size: 2rem;
+
+}
+.imagemfooter{
+    text-align: center;
+    margin: 25px;
+
+}
+
+.informacoes p {
+    text-align: center;
+    color: var(--main-borda);
+}
+
+
+
+.boxbotao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
