@@ -241,5 +241,62 @@ text-align: center;
 
 }
 
+footer{
+    background-color: rgba(215, 238, 240, 0.39);
+   
+}
+.footertexto{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
+.boxbotao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.cabecalhofooter{
+    text-align: center;
+    color:black;
+    font-size: 3rem;
+    padding: 15px;
+}
+
+.textobox input{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid var(--main-borda);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.textobox a{
+    cursor: pointer;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid var(--main-borda);
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgba(39, 104, 202, 0.801);
+    
+}
+.textobox a:hover{
+    cursor: pointer;
+    background-color:white;
+    color:  rgba(39, 104, 202, 0.801);
+}
+.boxbotao p {
+    text-align: center;
+    color: rgb(131, 121, 121);
+    font-size: 1.5rem/2.5;
+    font-family: var(--main-font);
+    padding: 25px;
+}
